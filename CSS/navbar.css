@@ -1,16 +1,34 @@
-.navbar
-{
-  border: 1px solid red;
+.navbar {
+  /* border: 1px solid red; */
+  background: #181a1b;
   display: flex;
   justify-content: space-around;
+  width: 100vw;
+  height: 10vh;
 }
-.navbar img
-{
-  border: 1px solid rgb(156, 204, 23);
+.navbar img {
+  /* border: 1px solid rgb(156, 204, 23); */
   width: 15%;
+  height: 75%;
+  margin-top: 10px;
 }
-.navbar ul
-{
-  border: 1px solid rgb(66, 10, 129);
+.nav_menu {
+  /* border: 1px solid rgb(66, 10, 129); */
   display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.nav_menu li {
+  list-style: none;
+  padding: 0px 20px 0px 20px;
+  font-size: 1.5rem;
+}
+.nav_menu li a {
+  text-decoration: none;
+  color: #e8e6e3;
+}
+.nav_menu li a:hover {
+  text-decoration: none;
+  color: #67fd67;
+  border-bottom: 5px solid #67fd67;
 }
