@@ -1,0 +1,21 @@
+.home
+{
+    border: 1px solid red;
+    /* width: 100vw; */
+    /* height: 90vh; */
+}
+.container
+{
+    background: url(../Images/Home_image.png) no-repeat center center/cover;
+    /* width: 100vw; */
+    height: 90vh;
+
+}
+.container h1
+{
+    color: #e8e6e3;
+}
+.container h3
+{
+    color: #e8e6e3;
+}
