@@ -28,7 +28,12 @@
   color: #e8e6e3;
 }
 .nav_menu li a:hover {
-  text-decoration: none;
   color: #67fd67;
   border-bottom: 5px solid #67fd67;
+  transition: color 1s ease;
 }
+/* .nav_menu li a:active {
+  color: #67fd67;
+  border-top: 5px solid #67fd67;
+  transition: color 1s ease;
+} */
