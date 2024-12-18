@@ -12,3 +12,6 @@ color: #67fd67; */
     font-weight: 700;
     font-style: normal;
 }
+body {
+    overflow-x: hidden;
+  }
