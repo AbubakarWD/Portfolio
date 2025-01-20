@@ -6,7 +6,7 @@ It's a one-stop destination to learn more about my professional journey and the 
 ---
 
 ## 🖥️ Live Preview
-**Check out my portfolio here**: [Your Portfolio Link](https://yourusername.github.io)
+**Check out my portfolio here**: [Portfolio Link](https://abubakarwd.github.io/Portfolio/)
 
 ---
 
@@ -46,20 +46,33 @@ This portfolio is designed to highlight:
 ## 📂 Project Structure
 
 Here’s how the project is structured:
-Abubakar-portfolio/
-├── index.html    
+
+├── index.html 
+
 ├── HTML/               
 │   ├── about.html
 │   ├── contact.html
+│   ├── projects.html
+│   ├── services.html
+
 ├── CSS/                
 │   ├── style.css
+│   ├── typography.css
+│   ├── navbar.css
+│   ├── home-section.css
+│   ├── about.css
+│   ├── projects.css
+│   ├── services.css
+│   ├── contact.css
+
 ├── Images/             
-│   ├── logo.png
+│   ├── logo-image
+│   ├── home-image
 
 🤝 Connect With Me
-  -  Portfolio: Your Portfolio Link
-  -  LinkedIn: Your LinkedIn Profile
-  -  GitHub: Your GitHub Profile
+  -  Portfolio: [Portfolio Link](https://abubakarwd.github.io/Portfolio/)
+  -  LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/muhammadabubakarkhan/)
+  -  GitHub: [Your GitHub Profile](https://github.com/AbubakarWD)
   -  Email: abubakarwebdev22@gmail.com
 
 Thank you for visiting my portfolio repository! Feel free to reach out for collaboration, freelance projects, or any inquiries.
