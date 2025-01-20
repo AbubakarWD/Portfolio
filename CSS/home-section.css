@@ -1,0 +1,43 @@
+.home {
+  background: url(../Images/Home_image.png) no-repeat center center / cover;
+  width: 85vw;
+  height: 100vh;
+  margin-left: 15vw;
+}
+.container {
+  /* border: 1px solid rgb(255, 0, 157); */
+  padding: 120px 10px 10px 10px;
+  text-align: center;
+}
+.container h2 {
+  color: #e8e6e3;
+  font-size: 40px;
+}
+.container h1 {
+  color: #e8e6e3;
+  font-size: 50px;
+  margin: 20px 0;
+}
+.container h3 {
+  color: #e8e6e3;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container button {
+  margin-top: 20px;
+}
+.container button:hover {
+  color: #67fd67cc;
+  background-color: #181a1b;
+}
+.journeysection
+{
+  border: 1px solid red;
+  background-color: #181a1b;
+  color: white;
+  width: 85vw;
+  height: 100vh;
+  margin-left: 15vw;
+}
