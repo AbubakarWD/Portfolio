@@ -32,12 +32,36 @@
   color: #67fd67cc;
   background-color: #181a1b;
 }
-.journeysection
-{
+.journeysection {
   border: 1px solid red;
   background-color: #181a1b;
   color: white;
   width: 85vw;
   height: 100vh;
   margin-left: 15vw;
+  padding: 30px 30px;
+}
+.journeysection h1 {
+  text-align: center;
+}
+.journeysection p {
+  text-align: center;
+}
+.journeysection-content {
+  border: 1px solid rgb(187, 255, 0);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  /* justify-content: space-evenly; */
+  /* display: flex; */
+  padding: 20px 20px;
+}
+.journeysection-item {
+  border: 1px solid rgb(255, 0, 179);
+  text-align: center;
+}
+.Card-Image {
+  width: 100%;
+  display: block;
+  margin: auto;
 }
