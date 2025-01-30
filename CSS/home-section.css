@@ -52,18 +52,48 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
-  /* justify-content: space-evenly; */
-  /* display: flex; */
   padding: 20px 20px;
 }
+
 .journeysection-item {
   border: 1px solid rgb(255, 0, 179);
   text-align: center;
+  position: relative; /* Required for absolute positioning of hover text */
+  overflow: hidden; /* Ensures the hover text doesn't overflow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
+
 .Card-Image {
   width: 100%;
   display: block;
   margin: auto;
 }
-.Card-Image:hover {
+
+/* Hover text styling */
+.card-hover-text {
+  position: absolute;
+  top: 100%; /* Initially hidden below the card */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: top 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.journeysection-item:hover {
+  transform: translateY(-10px); /* Move card backward */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+.journeysection-item:hover .card-hover-text {
+  top: 0; /* Bring hover text into view */
+  opacity: 1; /* Make hover text visible */
 }
