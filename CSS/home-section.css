@@ -19,6 +19,7 @@
   margin: 20px 0;
 }
 .container h3 {
+    /* border: 1px solid rgb(255, 0, 157); */
   color: #e8e6e3;
   font-size: 25px;
   text-align: center;
@@ -26,7 +27,9 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .container button {
+    /* border: 1px solid rgb(255, 0, 157); */
   margin-top: 20px;
+  margin: 20px 10px
 }
 .container button:hover {
   color: #67fd67cc;
@@ -90,7 +93,9 @@
 /* Hover effect */
 .journeysection-item:hover {
   transform: translateY(-10px); /* Move card backward */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow */
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 16px rgba(87, 159, 218, 0.3);  */
+  box-shadow: 0 8px 16px rgba(56, 236, 20, 0.3); /* Add shadow */ 
 }
 
 .journeysection-item:hover .card-hover-text {
