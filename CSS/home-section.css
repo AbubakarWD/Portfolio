@@ -4,70 +4,86 @@
   height: 100vh;
   margin-left: 15vw;
 }
+
 .container {
   /* border: 1px solid rgb(255, 0, 157); */
   padding: 120px 10px 10px 10px;
   text-align: center;
 }
+
 .container h2 {
   color: #e8e6e3;
   font-size: 40px;
 }
+
 .container h1 {
   color: #e8e6e3;
   font-size: 50px;
   margin: 20px 0;
 }
+
 .container h3 {
-    /* border: 1px solid rgb(255, 0, 157); */
+  /* border: 1px solid rgb(255, 0, 157); */
   color: #e8e6e3;
   font-size: 25px;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .container button {
-    /* border: 1px solid rgb(255, 0, 157); */
+  /* border: 1px solid rgb(255, 0, 157); */
   margin-top: 20px;
   margin: 20px 10px
 }
+
 .container button:hover {
   color: #67fd67cc;
   background-color: #181a1b;
 }
+
+/* journey-section */
 .journeysection {
   /* border: 1px solid red; */
   background-color: #151718;
   color: white;
   width: 85vw;
-  height: 100vh;
+  /* height: 100vh; */
   margin-left: 15vw;
   padding: 30px 30px;
 }
+
 .journeysection h1 {
   text-align: center;
 }
+
 .journeysection p {
   text-align: center;
 }
+
 .journeysection-content {
   /* border: 1px solid rgb(187, 255, 0); */
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
   padding: 20px 20px;
 }
 
 .journeysection-item {
+  /* height: 50%; */
   /* border: 1px solid rgb(255, 0, 179); */
   text-align: center;
-  position: relative; /* Required for absolute positioning of hover text */
-  overflow: hidden; /* Ensures the hover text doesn't overflow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  position: relative;
+  /* Required for absolute positioning of hover text */
+  overflow: hidden;
+  /* Ensures the hover text doesn't overflow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition */
 }
 
 .Card-Image {
   width: 100%;
+  height: 100%;
   display: block;
   margin: auto;
 }
@@ -75,11 +91,13 @@
 /* Hover text styling */
 .card-hover-text {
   position: absolute;
-  top: 100%; /* Initially hidden below the card */
+  top: 100%;
+  /* Initially hidden below the card */
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Semi-transparent black background */
   color: #fff;
   display: flex;
   align-items: center;
@@ -87,18 +105,81 @@
   padding: 20px;
   box-sizing: border-box;
   opacity: 0;
-  transition: top 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+  transition: top 0.3s ease, opacity 0.3s ease;
+  /* Smooth transition */
+  font-size: 2rem;
+  text-transform: capitalize;
 }
 
 /* Hover effect */
 .journeysection-item:hover {
-  transform: translateY(-10px); /* Move card backward */
+  transform: translateY(-10px);
+  /* Move card backward */
   /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   box-shadow: 0 8px 16px rgba(87, 159, 218, 0.3);  */
-  box-shadow: 0 8px 16px rgba(56, 236, 20, 0.3); /* Add shadow */ 
+  box-shadow: 0 8px 16px rgba(56, 236, 20, 0.3);
+  /* Add shadow */
 }
 
 .journeysection-item:hover .card-hover-text {
-  top: 0; /* Bring hover text into view */
-  opacity: 1; /* Make hover text visible */
+  top: 0;
+  /* Bring hover text into view */
+  opacity: 1;
+  /* Make hover text visible */
+}
+
+/* responsiveness */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .container {}
+
+  .container h2 {
+    font-size: 20px;
+  }
+
+  .container h1 {
+    font-size: 30px;
+
+  }
+
+  .container h3 {
+    font-size: 15px;
+  }
+
+  .container button {
+    font-size: 12px;
+  }
+
+  /* journey-section */
+  .journeysection {
+    
+  }
+
+  .journeysection h1 {
+    font-size: 25px;
+  }
+
+  .journeysection p {
+    font-size: 15px;
+  }
+
+  .journeysection-content {
+    grid-template-columns: 1fr;
+    grid-gap: 5%;
+    padding: 10px;
+  }
+
+  .journeysection-item {}
+
+  .Card-Image {}
+
+  /* Hover text styling */
+  .card-hover-text {}
+
+  /* Hover effect */
+  .journeysection-item:hover {}
+
+  .journeysection-item:hover .card-hover-text {}
+
+
 }
