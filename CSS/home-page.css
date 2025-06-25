@@ -129,7 +129,7 @@
 }
 
 /* responsiveness */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 768px) {
 
   .container {}
 
@@ -139,20 +139,13 @@
 
   .container h1 {
     font-size: 30px;
-
   }
-
   .container h3 {
     font-size: 15px;
   }
 
   .container button {
     font-size: 12px;
-  }
-
-  /* journey-section */
-  .journeysection {
-    
   }
 
   .journeysection h1 {
@@ -168,18 +161,5 @@
     grid-gap: 5%;
     padding: 10px;
   }
-
-  .journeysection-item {}
-
-  .Card-Image {}
-
-  /* Hover text styling */
-  .card-hover-text {}
-
-  /* Hover effect */
-  .journeysection-item:hover {}
-
-  .journeysection-item:hover .card-hover-text {}
-
 
 }
