@@ -1,12 +1,13 @@
 /* Services Section */
 #services {
     padding: 50px 20px;
-    background-color: #1a1a1a; /* Dark background */
-    color: #fff; /* White text */
+    background-color: #1a1a1a;
+    /* Dark background */
+    color: #fff;
+    /* White text */
     text-align: center;
-    width: 85vw;
+    width: 100vw;
     height: 100vh;
-    margin-left: 15vw;
 }
 
 .services-container {
@@ -17,7 +18,8 @@
 .services-container h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
-    color: #fff; /* White text */
+    color: #fff;
+    /* White text */
 }
 
 /* Services Grid */
@@ -29,7 +31,8 @@
 
 /* Service Card */
 .service-card {
-    background-color: #2a2a2a; /* Slightly lighter dark background */
+    background-color: #2a2a2a;
+    /* Slightly lighter dark background */
     padding: 30px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -37,22 +40,32 @@
 
 .service-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 8px 16px rgba(110, 109, 109, 0.3);
+
 }
 
 .service-icon {
+    /* border: 1px solid red; */
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #00ff88; /* Accent color (green) */
-}
+    color: #00ff88;
+    /* Accent color (green) */
 
+}
+.fas
+{
+    padding: 5px;
+}
 .service-card h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #fff; /* White text */
+    color: #fff;
+    /* White text */
 }
 
 .service-card p {
     font-size: 1rem;
-    color: #ccc; /* Light gray text */
+    color: #ccc;
+    /* Light gray text */
 }

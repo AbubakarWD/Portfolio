@@ -3,9 +3,8 @@
     padding: 50px 20px;
     background-color: #f9f9f9; /* Light background */
     text-align: center;
-    width: 85vw;
-    height: 100vh;
-    margin-left: 15vw;
+    width: 100vw;
+    /* height: 100vh; */
 }
 
 .projects-container {

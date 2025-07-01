@@ -1,16 +1,30 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-
+  scroll-behavior: smooth;
     /* fonts */
     font-family: "Space Mono", serif;
-    /* font-weight: 700;
-    font-style: normal; */
+
 }
-body
-{
-    /* display: flex; */
+
+.container span {
+    color: #67fd67;
+}
+
+button {
+    color: #181a1b;
+    background-color: #67fd67cc;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #67fd67cc;
+    background-color: #181a1b;
+    /* border: 1px solid #67fd67cc; */
 }

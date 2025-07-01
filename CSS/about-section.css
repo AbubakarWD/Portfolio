@@ -2,9 +2,8 @@
   background-color: #1f2022;
   color: #e8e6e3;
   padding: 50px 32px;
-  width: 85vw;
-  height: 100vh;
-  margin-left: 15vw;
+  width: 100vw;
+  height: 90vh;
 }
 .about h1 {
   /* border: 1px solid rgb(0, 81, 255); */
@@ -17,6 +16,8 @@
 .about_container {
   /* border: 1px solid red; */
   display: flex;
+    padding: 0 0 0 50px;
+
 }
 .right_div {
   /* border: 1px solid rgb(0, 255, 64); */
