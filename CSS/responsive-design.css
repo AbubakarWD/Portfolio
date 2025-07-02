@@ -98,14 +98,14 @@
 
   .contact-items {
     flex-direction: column;
-        /* border: 1px solid red */
+    /* border: 1px solid red */
 
   }
 
   .contact form {
     width: 100%;
     padding: 20px 50px;
-        /* border: 1px solid red */
+    /* border: 1px solid red */
 
   }
 
@@ -114,7 +114,7 @@
   }
 
   .social {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 20px 50px 50px 10px;
   }
 
@@ -123,12 +123,9 @@
     text-align: center;
   }
 
-  .social a {
-    margin: 10px;
-    text-decoration: none;
-    font-size: 50px;
-    padding: 10px;
-    border-radius: 12px;
-    text-align: center;
+  .social div {
+        /* border: 1px solid red; */
+        width: 50%;
+   margin: auto;
   }
 }
