@@ -5,14 +5,17 @@
   width: 100vw;
   height: 100vh;
 }
-.contact-items {
-  display: flex;
-}
+
 .contact h2 {
   text-align: center;
   font-size: 3rem;
   /* border: 1px solid red; */
 }
+
+.contact-items {
+  display: flex;
+}
+
 .contact form {
   /* border: 1px solid red; */
   width: 50%;
@@ -20,10 +23,12 @@
   padding: 20px 50px;
   background-color: #1f2022;
 }
+
 .contact form h3 {
   font-size: 2rem;
   text-align: center;
 }
+
 /* .contact form div {
   margin-top: 20px;
 } */
@@ -32,6 +37,7 @@
   font-size: 20px;
   /* margin-bottom: 100px; */
 }
+
 .contact form input {
   width: 100%;
   height: 8vh;
@@ -44,13 +50,16 @@
   padding: 10px;
   color: white;
 }
+
 .contact form input:hover {
   border-bottom: 1px solid rgb(255, 255, 255);
   /* color: rgb(255, 255, 255); */
 }
+
 .contact form input:focus {
   outline: none;
 }
+
 input::placeholder {
   color: white;
   /* opacity: 5;  */
@@ -70,6 +79,7 @@ input::placeholder {
 .contact form button {
   margin-top: 30px;
 }
+
 .social {
   /* border: 1px solid red; */
   padding: 100px 50px 50px 100px;
@@ -93,19 +103,22 @@ input::placeholder {
 }
 
 .fa-linkedin:hover {
-   background: #0077B5;
-  color: white; 
+  background: #0077B5;
+  color: white;
   /* background: #67fd67cc;
   color: #181a1b; */
 }
+
 .fa-github:hover {
   background: #181717;
   color: white;
 }
+
 .fa-twitter:hover {
   background: #55acee;
   color: white;
 }
+
 .fa-youtube:hover {
   background: #bb0000;
   color: white;
