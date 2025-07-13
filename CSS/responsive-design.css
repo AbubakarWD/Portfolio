@@ -124,8 +124,48 @@
   }
 
   .social div {
-        /* border: 1px solid red; */
-        width: 50%;
-   margin: auto;
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* home section */
+
+  .container {
+    padding: 50px 10px 10px 10px;
+  }
+
+  /* about section */
+  .about {
+    padding: 10px 0px;
+    width: 100vw;
+    height: 100%;
+  }
+
+  .about_container {
+    padding: 0 0 0 10px;
+
+  }
+
+  .left_div {
+    padding: 10px 0;
+  }
+
+  .contact form h3 {
+    font-size: 1.4rem;
+  }
+
+  .social {
+    /* border: 1px solid red; */
+    padding: 20px 0px 20px 0px;
+  }
+
+  .social div {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: auto;
   }
 }
