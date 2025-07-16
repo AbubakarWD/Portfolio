@@ -46,7 +46,6 @@
 
   .container h3 {
     font-size: 20px;
-
   }
 
   /* about section */
@@ -58,7 +57,7 @@
 
   .about h1 {
     width: 50%;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 10px;
   }
 
@@ -99,14 +98,12 @@
   .contact-items {
     flex-direction: column;
     /* border: 1px solid red */
-
   }
 
   .contact form {
     width: 100%;
     padding: 20px 50px;
     /* border: 1px solid red */
-
   }
 
   .contact form h3 {
@@ -131,13 +128,22 @@
 }
 
 @media (max-width: 576px) {
-
   /* home section */
 
   .container {
-    padding: 50px 10px 10px 10px;
+    padding: 50px 10px 0px 10px;
+  }
+  .container h2 {
+    font-size: 30px;
   }
 
+  .container h1 {
+    font-size: 40px;
+  }
+
+  .container h3 {
+    font-size: 20px;
+  }
   /* about section */
   .about {
     padding: 10px 0px;
@@ -147,13 +153,17 @@
 
   .about_container {
     padding: 0 0 0 10px;
-
   }
 
   .left_div {
     padding: 10px 0;
   }
-
+  .left_div_items div {
+    padding: 12px 6px;
+  }
+  .left_div_items p {
+    padding: 10px 12px;
+  }
   .contact form h3 {
     font-size: 1.4rem;
   }
