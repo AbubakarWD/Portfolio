@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
 }
 
 .logo {
@@ -50,4 +51,9 @@
 .nav_menu li a:active {
     color: #67fd67;
     /* border-bottom: 5px solid #67fd67; */
+}
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
 }

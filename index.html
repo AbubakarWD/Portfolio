@@ -1,217 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
 
     <!-- font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/navbar.css">
-    <link rel="stylesheet" href="./CSS/home-section.css">
-    <link rel="stylesheet" href="./CSS/about-section.css">
-    <link rel="stylesheet" href="./CSS/services.section.css">
-    <link rel="stylesheet" href="./CSS/projects-section.css">
-    <link rel="stylesheet" href="./CSS/contact-section.css">
-    <link rel="stylesheet" href="./CSS/responsive-design.css">
-</head>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/navbar.css" />
+    <link rel="stylesheet" href="./CSS/home-section.css" />
+    <link rel="stylesheet" href="./CSS/about-section.css" />
+    <link rel="stylesheet" href="./CSS/services.section.css" />
+    <link rel="stylesheet" href="./CSS/projects-section.css" />
+    <link rel="stylesheet" href="./CSS/contact-section.css" />
+    <link rel="stylesheet" href="./CSS/responsive-design.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navbar">
-            <p class="logo">Abub<span>akar</span></p>
-            <div class="hamburger" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger -->
-            <ul class="nav_menu" id="navMenu">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar">
+        <p class="logo">Abub<span>akar</span></p>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        <!-- Hamburger -->
+        <ul class="nav_menu" id="navMenu">
+          <li><a href="./">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <section class="home-section">
-        <div class="container">
-            <h2>Hey,</h2>
-            <h1>I'm Muhammad <span>Abubakar</span> Khan!</h1>
-            <h3>
-                Bridging <span>Creativity</span> and <span>Code</span> to Deliver
-                Exceptional Web Solutions
-            </h3>
-            <div class="home-buttons">
-
-                <button>About me</button>
-                <button>Contact me</button>
-            </div>
+      <div class="container">
+        <h2>Hey,</h2>
+        <h1>I'm Muhammad <span>Abubakar</span> Khan!</h1>
+        <h3>
+          Bridging <span>Creativity</span> and <span>Code</span> to Deliver
+          Exceptional Web Solutions
+        </h3>
+        <div class="home-buttons">
+          <a href="#about" class="button">About</a>
+          <a href="#contact" class="button">Contact</a>
         </div>
+      </div>
     </section>
     <section class="about" id="about">
-        <h1>About me</h1>
-        <div class="about_container">
-            <div class="right_div">
-                <h3>Get to know me!</h3>
-                <p>
-                    I am Muhammad Abubakar Khan, a passionate Web Developer with
-                    expertise in creating responsive, user-focused websites using modern
-                    technologies. With a strong foundation in Computer Science, I have
-                    polished my skills to design and develop web solutions that are both
-                    visually appealing and highly functional.
-                </p>
-                <!-- <br /> -->
-                <p>
-                    Currently pursuing a BS in Computer Science at the University of
-                    Agriculture, Peshawar, I stay committed to learning and adapting to
-                    new technologies. My professional experience includes crafting
-                    dynamic websites at The Scholars Academy, where I combine creativity
-                    and technical expertise to meet diverse client needs.
-                    <!-- <br /> -->
-                    I am driven by a dedication to quality and innovation, always
-                    striving to build web solutions that enhance user engagement and
-                    align with business goals.
-                </p>
-                <!-- <br /> -->
-                <p>Let’s connect to create something extraordinary together!</p>
-                <button>Check my Projects</button>
-            </div>
-            <div class="left_div">
-                <h3>My tookit</h3>
-
-                <div class="left_div_items">
-                    <div>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>Bootstrap</p>
-                    </div>
-                    <div>
-                        <p>JavaScript</p>
-                    </div>
-                    <div>
-                        <p>PHP</p>
-                        <p>Laravel</p>
-                    </div>
-                    <div>
-                        <p>SQL</p>
-                    </div>
-                    <div>
-                        <p>Git</p>
-                        <p>Vercel</p>
-                        <p>Figma</p>
-                        <p>WordPress</p>
-                    </div>
-                </div>
-            </div>
+      <h1>About me</h1>
+      <div class="about_container">
+        <div class="right_div">
+          <h3>Get to know me!</h3>
+          <p>
+            I am Muhammad Abubakar Khan, a passionate Web Developer with
+            expertise in creating responsive, user-focused websites using modern
+            technologies. With a strong foundation in Computer Science, I have
+            polished my skills to design and develop web solutions that are both
+            visually appealing and highly functional.
+          </p>
+          <!-- <br /> -->
+          <p>
+            Currently pursuing a BS in Computer Science at the University of
+            Agriculture, Peshawar, I stay committed to learning and adapting to
+            new technologies. My professional experience includes crafting
+            dynamic websites at The Scholars Academy, where I combine creativity
+            and technical expertise to meet diverse client needs.
+            <!-- <br /> -->
+            I am driven by a dedication to quality and innovation, always
+            striving to build web solutions that enhance user engagement and
+            align with business goals.
+          </p>
+          <!-- <br /> -->
+          <p>Let’s connect to create something extraordinary together!</p>
+          <button>Check my Projects</button>
         </div>
+        <div class="left_div">
+          <h3>My tookit</h3>
+
+          <div class="left_div_items">
+            <div>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Bootstrap</p>
+            </div>
+            <div>
+              <p>JavaScript</p>
+            </div>
+            <div>
+              <p>PHP</p>
+              <p>Laravel</p>
+            </div>
+            <div>
+              <p>SQL</p>
+            </div>
+            <div>
+              <p>Git</p>
+              <p>Vercel</p>
+              <p>Figma</p>
+              <p>WordPress</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="services">
-        <div class="services-container">
-            <h2>My Services</h2>
-            <div class="services-grid">
-                <!-- Service Card 1 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i> <!-- Font Awesome icon -->
-                    </div>
-                    <h3>Front-end Development</h3>
-                    <p>I create responsive and user-friendly websites using modern technologies like HTML, CSS,
-                        JavaScript, and React.</p>
-                </div>
-                <!-- Service Card 2 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-cogs"></i> <!-- Font Awesome icon -->
-                    </div>
-                    <h3>Back-end Development</h3>
-                    <p>I develop secure and scalable backend systems using PHP and MySQL.</p>
-                </div>
-                <!-- Service Card 3 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i> <!-- Font Awesome icon -->
-                    </div>
-                    <h3>WordPress Development</h3>
-                    <p>I create custom WordPress websites from blogs to e-commerce using Elementor, WooCommerce, and
-                        custom themes/plugins.</p>
-                </div>
-                <!-- Service Card 4 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-paint-brush"></i> <!-- Font Awesome icon -->
-                    </div>
-                    <h3>UI/UX Design</h3>
-                    <p>I design intuitive and visually appealing interfaces that enhance user experience and engagement.
-                    </p>
-                </div>
+      <div class="services-container">
+        <h2>My Services</h2>
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+              <!-- Font Awesome icon -->
             </div>
+            <h3>Front-end Development</h3>
+            <p>
+              I create responsive and user-friendly websites using modern
+              technologies like HTML, CSS, JavaScript, and React.
+            </p>
+          </div>
+          <!-- Service Card 2 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-cogs"></i>
+              <!-- Font Awesome icon -->
+            </div>
+            <h3>Back-end Development</h3>
+            <p>
+              I develop secure and scalable backend systems using PHP and MySQL.
+            </p>
+          </div>
+          <!-- Service Card 3 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+              <!-- Font Awesome icon -->
+            </div>
+            <h3>WordPress Development</h3>
+            <p>
+              I create custom WordPress websites from blogs to e-commerce using
+              Elementor, WooCommerce, and custom themes/plugins.
+            </p>
+          </div>
+          <!-- Service Card 4 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-paint-brush"></i>
+              <!-- Font Awesome icon -->
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>
+              I design intuitive and visually appealing interfaces that enhance
+              user experience and engagement.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
     <section id="projects">
-        <div class="projects-container">
-            <h2>My Projects</h2>
-            <!-- <div class="filters">
+      <div class="projects-container">
+        <h2>My Projects</h2>
+        <!-- <div class="filters">
           <button class="filter-btn active" data-filter="all">All</button>
           <button class="filter-btn" data-filter="web">Web Development</button>
           <button class="filter-btn" data-filter="design">Design</button>
           <button class="filter-btn" data-filter="other">Other</button>
         </div> -->
-            <div class="project-grid">
-                <!-- Project Card 1 -->
-                <div class="project-card" data-category="web">
-                    <img src="./Images/GymBo Fitness.png" alt="Project 1" class="project-image" />
-                    <div class="project-info">
-                        <h3>GymBo Fitness</h3>
-                        <p>
-                            Designed to attract fitness enthusiasts, it includes call-to-action sections for memberships
-                            and dynamic content display.
-                        </p>
-                        <div class="project-links">
-                            <a href="" target="_blank">Live Demo</a>
-                            <a href="" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 2 -->
-                <div class="project-card" data-category="design">
-                    <img src="./Images/netflix.png" alt="Project 2" class="project-image" />
-                    <div class="project-info">
-                        <h3>Movies Website </h3>
-                        <p>
-                            Demonstrates frontend skills in replicating complex UIs, including interactive carousels and
-                            dark-mode aesthetics.
-                        </p>
-                        <div class="project-links">
-                            <a href="" target="_blank">Live Demo</a>
-                            <a href="" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 3 -->
-                <div class="project-card" data-category="design">
-                    <img src="./Images/My Wheels.png" alt="Project 2" class="project-image" />
-                    <div class="project-info">
-                        <h3>My Wheels</h3>
-                        <p>
-                            Highlights product presentation skills with image sliders, search functionality, and
-                            mobile-first responsive layouts.
-                        </p>
-                        <div class="project-links">
-                            <a href="" target="_blank">Live Demo</a>
-                            <a href="" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Card 4 -->
-                <!-- <div class="project-card" data-category="design">
+        <div class="project-grid">
+          <!-- Project Card 1 -->
+          <div class="project-card" data-category="web">
+            <img
+              src="./Images/GymBo Fitness.png"
+              alt="Project 1"
+              class="project-image"
+            />
+            <div class="project-info">
+              <h3>GymBo Fitness</h3>
+              <p>
+                Designed to attract fitness enthusiasts, it includes
+                call-to-action sections for memberships and dynamic content
+                display.
+              </p>
+              <div class="project-links">
+                <a href="" target="_blank">Live Demo</a>
+                <a href="" target="_blank">View Code</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project Card 2 -->
+          <div class="project-card" data-category="design">
+            <img
+              src="./Images/netflix.png"
+              alt="Project 2"
+              class="project-image"
+            />
+            <div class="project-info">
+              <h3>Movies Website</h3>
+              <p>
+                Demonstrates frontend skills in replicating complex UIs,
+                including interactive carousels and dark-mode aesthetics.
+              </p>
+              <div class="project-links">
+                <a href="" target="_blank">Live Demo</a>
+                <a href="" target="_blank">View Code</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project Card 3 -->
+          <div class="project-card" data-category="design">
+            <img
+              src="./Images/My Wheels.png"
+              alt="Project 2"
+              class="project-image"
+            />
+            <div class="project-info">
+              <h3>My Wheels</h3>
+              <p>
+                Highlights product presentation skills with image sliders,
+                search functionality, and mobile-first responsive layouts.
+              </p>
+              <div class="project-links">
+                <a href="" target="_blank">Live Demo</a>
+                <a href="" target="_blank">View Code</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project Card 4 -->
+          <!-- <div class="project-card" data-category="design">
                     <img src="./Images/Home_image.png" alt="Project 2" class="project-image" />
                     <div class="project-info">
                         <h3>Project Title 4</h3>
@@ -225,34 +257,33 @@
                         </div>
                     </div>
                 </div> -->
-                <!-- Add more project cards as needed -->
-            </div>
+          <!-- Add more project cards as needed -->
         </div>
+      </div>
     </section>
     <section class="contact" id="contact">
-        <h2>Contact Now</h2>
-        <div class="contact-items">
-            <form action="">
-                <h3>Let's Connect!</h3>
-                <input type="text" name="user-name" placeholder="Name" />
-                <input type="tel" name="user-phone" placeholder="Phone Number" />
-                <input type="email" name="user-email" placeholder="Email Address" />
-                <input type="text" name="Subject" placeholder="Subject" />
-                <input type="text" name="Your Message" placeholder="Your Message" />
-                <div><button>Submit</button></div>
-            </form>
-            <div class="social">
-                <h1>Follow me on : </h1>
-                <div>
-                    <a href="#" class="fa fa-linkedin" target="_blank"></a>
-                    <a href="#" class="fa fa-github" target="_blank"></a>
-                    <a href="#" class="fa fa-twitter" target="_blank"></a>
-                    <a href="#" class="fa fa-youtube" target="_blank"></a>
-                </div>
-            </div>
+      <h2>Contact Now</h2>
+      <div class="contact-items">
+        <form action="">
+          <h3>Let's Connect!</h3>
+          <input type="text" name="user-name" placeholder="Name" />
+          <input type="tel" name="user-phone" placeholder="Phone Number" />
+          <input type="email" name="user-email" placeholder="Email Address" />
+          <input type="text" name="Subject" placeholder="Subject" />
+          <input type="text" name="Your Message" placeholder="Your Message" />
+          <div><button>Submit</button></div>
+        </form>
+        <div class="social">
+          <h1>Follow me on :</h1>
+          <div>
+            <a href="#" class="fa fa-linkedin" target="_blank"></a>
+            <a href="#" class="fa fa-github" target="_blank"></a>
+            <a href="#" class="fa fa-twitter" target="_blank"></a>
+            <a href="#" class="fa fa-youtube" target="_blank"></a>
+          </div>
         </div>
+      </div>
     </section>
     <script src="./JS/script.js"></script>
-</body>
-
+  </body>
 </html>
