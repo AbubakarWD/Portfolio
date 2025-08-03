@@ -10,6 +10,7 @@
   text-align: center;
   font-size: 3rem;
   /* border: 1px solid red; */
+  padding: 10px;
 }
 
 .contact-items {
@@ -27,6 +28,7 @@
 .contact form h3 {
   font-size: 2rem;
   text-align: center;
+  padding: 5px;
 }
 
 /* .contact form div {
@@ -88,6 +90,7 @@ input::placeholder {
 .social h1 {
   /* border: 1px solid red; */
   text-align: center;
+  padding: 5px;
 }
 
 .social a {
@@ -103,7 +106,7 @@ input::placeholder {
 }
 
 .fa-linkedin:hover {
-  background: #0077B5;
+  background: #0077b5;
   color: white;
   /* background: #67fd67cc;
   color: #181a1b; */

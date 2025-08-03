@@ -20,6 +20,7 @@
     margin-bottom: 40px;
     color: #fff;
     /* White text */
+    padding: 5px;
 }
 
 /* Services Grid */
@@ -62,6 +63,7 @@
     margin-bottom: 15px;
     color: #fff;
     /* White text */
+    padding: 5px;
 }
 
 .service-card p {

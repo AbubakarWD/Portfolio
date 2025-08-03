@@ -13,16 +13,21 @@
 .container h2 {
   color: #e8e6e3;
   font-size: 40px;
+  /* border: 1px solid rgb(255, 0, 157); */
+  padding: 5px;
 }
 
 .container h1 {
   color: #e8e6e3;
   font-size: 50px;
   margin: 20px 0;
+  /* border: 1px solid rgb(255, 0, 157); */
+  padding: 10px;
 }
 
 .container h3 {
   /* border: 1px solid rgb(255, 0, 157); */
+  padding: 5px;
   color: #e8e6e3;
   font-size: 25px;
   text-align: center;

@@ -1,7 +1,8 @@
 .about {
   background-color: #1f2022;
   color: #e8e6e3;
-  padding: 50px 32px;
+  /* padding: 50px 32px; */
+  padding: 20px 32px 20px 32px;
   width: 100vw;
   height: 100vh;
 }
@@ -12,12 +13,12 @@
   text-align: center;
   margin: auto;
   margin-bottom: 30px;
+  padding: 10px;
 }
 .about_container {
   /* border: 1px solid red; */
   display: flex;
-    padding: 0 0 0 50px;
-
+  padding: 0 0 0 50px;
 }
 .right_div {
   /* border: 1px solid rgb(0, 255, 64); */
@@ -26,6 +27,7 @@
 }
 .right_div h3 {
   margin: 0px 0 10px 0;
+  padding: 5px;
 }
 .right_div p {
   margin: 0px 0 8px 0;
@@ -55,10 +57,11 @@
 }
 .left_div h3 {
   margin: 0px 0 10px 20px;
+  padding: 5px;
 }
 .left_div_items {
   /* border: 1px solid #67fd67cc; */
-    /* width: 100%; */
+  /* width: 100%; */
 }
 /* .left_div_items button {
   background-color: #242424;
@@ -73,7 +76,7 @@
   padding: 12px 16px;
 }
 .left_div_items p {
-    display: inline;
+  display: inline;
   background-color: #242424;
   color: #e8e6e3;
   border: none;
