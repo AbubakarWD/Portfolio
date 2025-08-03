@@ -125,6 +125,10 @@
     width: 50%;
     margin: auto;
   }
+  footer p
+  {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -179,5 +183,9 @@
     /* border: 1px solid red; */
     width: 100%;
     margin: auto;
+  }
+  footer p
+  {
+    font-size: 0.8rem;
   }
 }
