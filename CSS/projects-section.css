@@ -82,7 +82,7 @@
   scroll-snap-align: start;
 }
 .project-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -101,6 +101,7 @@
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: #333;
+  padding: 5px;
 }
 
 .project-info p {
