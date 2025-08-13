@@ -4,6 +4,7 @@
   /* padding: 20px 20px; */
   width: 100vw;
   height: 100vh;
+  height: 100%;
 }
 
 .contact h2 {
@@ -117,12 +118,12 @@ input::placeholder {
   color: white;
 }
 
-.fa-twitter:hover {
-  background: #55acee;
+.fa-instagram:hover {
+  background: linear-gradient(45deg, #fd1d1d, #e1306c, #f77737);
   color: white;
 }
 
-.fa-youtube:hover {
-  background: #bb0000;
+.fa-tiktok:hover {
+  background: #181717;
   color: white;
 }

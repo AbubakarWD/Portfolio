@@ -25,8 +25,9 @@
   <link rel="stylesheet" href="./CSS/navbar.css" />
   <link rel="stylesheet" href="./CSS/home-section.css" />
   <link rel="stylesheet" href="./CSS/about-section.css" />
-  <link rel="stylesheet" href="./CSS/services.section.css" />
+  <link rel="stylesheet" href="./CSS/services-section.css" />
   <link rel="stylesheet" href="./CSS/projects-section.css" />
+  <link rel="stylesheet" href="./CSS/testimonial-section.css" />
   <link rel="stylesheet" href="./CSS/contact-section.css" />
   <link rel="stylesheet" href="./CSS/footer.css" />
   <link rel="stylesheet" href="./CSS/responsive-design.css" />
@@ -34,18 +35,20 @@
 
 <body>
   <header>
-    <!-- <nav class="navbar">
-        <p class="logo">Abub<span>akar</span></p>
-        <div class="hamburger" onclick="toggleMenu()">&#9776;</div> -->
-    <!-- Hamburger -->
-    <!-- <ul class="nav_menu" id="navMenu">
-          <li><a href="./">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav> -->
+    <nav class="navbar">
+      <p class="logo">Abub<span>akar</span></p>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav_menu" id="navMenu">
+        <li><a href="./" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonial">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <section class="home-section">
     <div class="container">
@@ -96,6 +99,8 @@
           <div>
             <p>HTML</p>
             <p>CSS</p>
+          </div>
+          <div>
             <p>Bootstrap</p>
             <p>Tailwind CSS</p>
           </div>
@@ -227,7 +232,7 @@
             </div>
           </div>
         </div>
-        <!-- Project Card 1 -->
+        <!-- Project Card 4 -->
         <div class="project-card" data-category="web">
           <img src="./Images/Zoja.ae.png" alt="Zoja-Homepage-img" class="project-image" />
           <div class="project-info">
@@ -242,7 +247,7 @@
             </div>
           </div>
         </div>
-        <!-- Project Card 2 -->
+        <!-- Project Card 5 -->
         <div class="project-card" data-category="web">
           <img src="./Images/haircity.co.uk.png" alt="Haircity-Homepage-img" class="project-image" />
           <div class="project-info">
@@ -257,7 +262,7 @@
             </div>
           </div>
         </div>
-        <!-- Project Card 3 -->
+        <!-- Project Card 6 -->
         <div class="project-card" data-category="web">
           <img src="./Images/ccr.corp.com.png" alt="CCR-Corp-Homepage-img" class="project-image" />
           <div class="project-info">
@@ -273,7 +278,7 @@
           </div>
         </div>
 
-        <!-- Project Card 4 -->
+        <!-- Project Card 7 -->
         <div class="project-card" data-category="web">
           <img src="./Images/GymBo-Fitness.png" alt="Project 1" class="project-image" />
           <div class="project-info">
@@ -289,7 +294,7 @@
             </div>
           </div>
         </div>
-        <!-- Project Card 5 -->
+        <!-- Project Card 8 -->
         <div class="project-card" data-category="design">
           <img src="./Images/SGM.png" alt="Cozykompanio" class="project-image" />
           <div class="project-info">
@@ -303,22 +308,7 @@
             </div>
           </div>
         </div>
-        <!-- Project Card 2 -->
-        <div class="project-card" data-category="design">
-          <img src="./Images/netflix.png" alt="Project 2" class="project-image" />
-          <div class="project-info">
-            <h3>Movies Website</h3>
-            <p>
-              Demonstrates frontend skills in replicating complex UIs,
-              including interactive carousels and dark-mode aesthetics.
-            </p>
-            <div class="project-links">
-              <a href="" target="_blank">Live Demo</a>
-              <a href="" target="_blank">View Code</a>
-            </div>
-          </div>
-        </div>
-        <!-- Project Card 3 -->
+        <!-- Project Card 9 -->
         <div class="project-card" data-category="design">
           <img src="./Images/My Wheels.png" alt="Project 2" class="project-image" />
           <div class="project-info">
@@ -333,7 +323,7 @@
             </div>
           </div>
         </div>
-        <!-- Project Card 4 -->
+        <!-- Project Card 10 -->
         <div class="project-card" data-category="design">
           <img src="./Images/Cozykompanio.png" alt="Cozykompanio" class="project-image" />
           <div class="project-info">
@@ -352,6 +342,62 @@
       </div>
     </div>
   </section>
+
+   <!-- Testimonials Carousel -->
+  <section id="testimonial" style="background:#181a1b; color:white; padding:30px 20px 60px 20px; text-align:center;">
+    <div class="container">
+      <h2 style="color:#67fd67; font-size:2.5rem; margin-bottom:40px;">What Clients Say</h2>
+      
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+       
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div
+              style="background:#1f2123; padding:30px; border-radius:10px; max-width:700px; margin:0 auto; box-shadow:0 4px 15px rgba(0,0,0,0.4);">
+              <p style="font-size:1.2rem;">"Abubakar delivered exactly what I needed — responsive, modern, and
+                SEO-friendly."</p>
+              <div style="margin-top:15px; font-weight:bold; color:#67fd67;">— Sarah L.</div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div
+              style="background:#1f2123; padding:30px; border-radius:10px; max-width:700px; margin:0 auto; box-shadow:0 4px 15px rgba(0,0,0,0.4);">
+              <p style="font-size:1.2rem;">"From design to deployment, everything was smooth and professional."</p>
+              <div style="margin-top:15px; font-weight:bold; color:#67fd67;">— James K.</div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div
+              style="background:#1f2123; padding:30px; border-radius:10px; max-width:700px; margin:0 auto; box-shadow:0 4px 15px rgba(0,0,0,0.4);">
+              <p style="font-size:1.2rem;">"Creative, skilled, and reliable — highly recommended!"</p>
+              <div style="margin-top:15px; font-weight:bold; color:#67fd67;">— Ayesha R.</div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div
+              style="background:#1f2123; padding:30px; border-radius:10px; max-width:700px; margin:0 auto; box-shadow:0 4px 15px rgba(0,0,0,0.4);">
+              <p style="font-size:1.2rem;">"Fantastic service with a quick turnaround time."</p>
+              <div style="margin-top:15px; font-weight:bold; color:#67fd67;">— Michael P.</div>
+            </div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact-section -->
   <section class="contact" id="contact">
     <h2>Contact Now</h2>
     <div class="contact-items">
@@ -369,8 +415,8 @@
         <div>
           <a href="https://www.linkedin.com/in/muhammadabubakarkhan2/" class="fa fa-linkedin" target="_blank"></a>
           <a href="https://github.com/AbubakarWD" class="fa fa-github" target="_blank"></a>
-          <a href="#" class="fa fa-twitter" target="_blank"></a>
-          <a href="#" class="fa fa-youtube" target="_blank"></a>
+          <a href="https://www.instagram.com/abubakarwd_/" class="fa fa-instagram" target="_blank"></a>
+          <a href="https://www.tiktok.com/@abubakarwd_" class="fa fa-tiktok" target="_blank"></a>
         </div>
       </div>
     </div>
