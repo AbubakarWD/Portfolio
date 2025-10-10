@@ -1,16 +1,54 @@
-footer
-{
-  background-color: #202020;
-  color: #e8e6e3;
-  /* padding: 20px 20px; */
-  width: 100vw;
-  height: 10vh;
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #c6c8ca;
 }
-footer p
-{
-    /* border: 1px solid #d48712; */
-  text-align: center;
-  font-size: 1.2rem;
-  margin: 0;
-  padding: 10px;
+
+footer p {
+    margin: 0;
+    padding: 10px;
+    color: #181a1b;
+    font-size: 16px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    /* padding: 10px 20px 10px 20px; */
+    padding: 10px;
+}
+
+.social-icons a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #67fd67cc;
+    background-color: #7c7e80;
+}
+
+.fa-linkedin {
+    background: #0077b5;
+    color: white;
+}
+
+.fa-github {
+    background: #181717;
+    color: white;
+}
+
+.fa-instagram {
+    background: linear-gradient(45deg, #fd1d1d, #e1306c, #f77737);
+    color: white;
+}
+
+.fa-tiktok {
+    background: #181717;
+    color: white;
 }
