@@ -1,4 +1,7 @@
 /* Services Section */
+#services {
+
+}
 
 .services-container {
     max-width: 1200px;
@@ -11,6 +14,7 @@
     color: #fff;
     /* White text */
     padding: 5px;
+    
 }
 
 /* Services Grid */
