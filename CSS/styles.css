@@ -67,26 +67,10 @@
       color: #555;
   }
 
-  /* Responsive Design */
-  @media (max-width: 768px) {
-      body {
-          flex-direction: column;
-      }
-
-      nav {
-          width: 100%;
-          height: auto;
-          position: relative;
-      }
-
-      main {
-          padding: 20px;
-      }
-  }
-#about
-{
+  #about {
       border-bottom: 1px solid #181a1b;
-}
+  }
+
   /* toolkit section  */
   .tool {
       /* display: flex; */
@@ -105,4 +89,29 @@
   .tool:hover {
       background-color: #67fd67cc;
       color: #242424;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+      body {
+          flex-direction: column;
+      }
+
+      nav {
+          width: 100%;
+          height: auto;
+          position: relative;
+      }
+
+      main {
+          padding: 20px;
+      }
+  }
+
+  @media (min-width:768px) and (max-width:1200px) {
+     body {
+          /* flex-direction: column; */
+          width: 80%;
+          margin-left: 20%;
+      }
   }

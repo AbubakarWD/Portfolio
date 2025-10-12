@@ -52,3 +52,14 @@ footer p {
     background: #181717;
     color: white;
 }
+
+@media (max-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+}
