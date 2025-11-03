@@ -2,369 +2,151 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abubakar's Portfolio</title>
-    <link rel="stylesheet" href="CSS/styles.css" />
-    <link rel="stylesheet" href="CSS/work-section.css">
-    <link rel="stylesheet" href="CSS/education.css">
-    <link rel="stylesheet" href="CSS/services-section.css">
-    <link rel="stylesheet" href="CSS/projects-section.css">
-    <link rel="stylesheet" href="CSS/certifications-sections.css">
-    <link rel="stylesheet" href="CSS/contact-section.css">
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="/CSS/responsive.css">
-
-    <!-- Bootstrap CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-
-    <!-- font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abubakar</title>
+    <!-- Google Fonts -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet" />
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 
 <body>
-    <nav>
-        <h2>Abubakar</h2>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#toolkit">Toolkit</a>
-        <a href="#work">Expeience</a>
-        <a href="#services">Services</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <main>
-        <section id="home">
-            <h1>Muhammad Abubakar Khan</h1>
-            <p>Web Developer</p>
-            <!-- <h2>Introduction</h2>
-            <p>I’m Muhammad Abubakar Khan, a Web Developer skilled in building responsive, user-friendly, and efficient
-                websites using HTML, CSS, JavaScript, PHP, Bootstrap, and Laravel. My work reflects a balance of
-                creativity and technical precision, turning ideas into functional, modern web solutions.</p> -->
-        </section>
-
-        <!-- About -->
-        <section id="about">
-            <h2>About me</h2>
-            <p>I’m Muhammad Abubakar Khan, a passionate Web Developer with expertise in creating responsive,
-                user-focused
-                websites using modern technologies. With a strong foundation in Computer Science, I have polished my
-                skills to design and develop web solutions that are both visually appealing and highly functional.</p>
-        </section>
-
-        <!-- Tool -->
-        <section id="toolkit">
-            <h2>My Toolkit</h2>
-            <div class="left_div_items">
-                <div>
-                    <p class="tool">HTML</p>
-                    <p class="tool">CSS</p>
-
-                    <p class="tool">Bootstrap</p>
-                    <p class="tool">Tailwind CSS</p>
-
-                    <p class="tool">JavaScript</p>
-                    <p class="tool">jQuery</p>
-
-                    <p class="tool">PHP</p>
-                    <p class="tool">Laravel</p>
-
-                    <p class="tool">MySQL</p>
-
-                    <p class="tool">Git</p>
-                    <p class="tool">Vercel</p>
-                    <p class="tool">Figma</p>
-                    <p class="tool">WordPress</p>
+    <!-- Navbar Section -->
+    <header class="site-header">
+        <div class="inner">
+            <div class="brand">
+                <div class="code-right">{</div>
+                <div class="brand-text">
+                    <p class="brand-name">_Abubakar_Khan_</p>
                 </div>
+                <div class="code-left">}</div>
             </div>
-        </section>
+            <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <nav id="mainNav" class="main-nav">
+                <ul>
+                    <li><a href="#home">_home</a></li>
+                    <li><a href="#about">_about</a></li>
+                    <li><a href="#services">_services</a></li>
+                    <li><a href="#portfolio">_portfolio</a></li>
+                    <li><a href="#contact">_contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero Section  -->
+    <section id="home" class="hero">
+        <div class="hero-inner">
+            <h1 class="big-title">{"_Abubakar_Khan_"}</h1>
+            <p class="hero-sub">_Native_PHP_Full-Stack_Engineer | _WordPress_Expert_ | _Laravel_Developer_ |</p>
+            <div class="hero-cta">
+                <a href="#portfolio" class="btn primary">View Work</a>
+                <a href="#connect" class="btn outline"> Hire me</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">&lt;about_me&gt;</h2>
+            <div class="about-grid">
+                <div class="about-left">
+                    <p class="lead">I’m Muhammad Abubakar Khan, a passionate Web Developer with expertise in creating
+                        responsive, user-focused websites using modern technologies. With a strong foundation in
+                        Computer Science, I have polished my skills to design and develop web solutions that are both
+                        visually appealing and highly functional.
+                    </p>
 
-        <!-- Work Experience  -->
-        <section id="work">
-            <h2>Experience</h2>
-            <div class="work-container">
-                <div class="work-right-side">
-                    <p class="Job">WordPress Developer</p>
-                    <p class="Company">Sufyan Growth Media</p>
-                    <p class="location">Remote</p>
-                    <ul>
-                        <li>Designed and customized WordPress themes to meet client specifications</li>
-                        <li>Improved website performance, SEO, and user experience using Elementor and custom code.</li>
-                        <li>Integrated plugins and optimized responsiveness across all devices.</li>
+                    <p>I have experience building e-commerce sites, marketplace
+                        platforms, and web tools for small businesses. I enjoy converting designs into pixel-perfect,
+                        accessible frontends and building scalable APIs and admin systems.</p>
+
+                    <ul class="about-list">
+                        <li>Web development (HTML, CSS, JavaScript)</li>
+                        <li>PHP, Laravel, WordPress</li>
+                        <li>Responsive UI, performance & accessibility</li>
                     </ul>
-                </div>
-                <div class="work-left-side">
-                    <p class="work-date">July 2025 - September 2025</p>
-                </div>
-            </div>
-            <div class="work-container">
-                <div class="work-right-side">
-                    <p class="Job">Web Developer</p>
-                    <p class="Company">The Scholars Academy</p>
-                    <p class="location">Peshawar</p>
-                    <ul>
-                        <li>Developed and maintained the academy’s official website using HTML, CSS, JavaScript and
-                            Bootstrap</li>
-                        <li>Enhanced site accessibility and usability for both staff and students.</li>
-                        <li>Implemented responsive layouts and optimized site speed for improved performance.</li>
-                    </ul>
-                </div>
-                <div class="work-left-side">
-                    <p class="work-date">October 2024 - January 2025</p>
-                </div>
-            </div>
-        </section>
 
-        <!-- Services  -->
-        <section id="services">
-            <h2>My Services</h2>
-            <div class="services-container">
-                <!-- <h2>My Services</h2> -->
-                <div class="services-grid">
-                    <!-- Service Card 1 -->
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-code"></i>
-                            <!-- Font Awesome icon -->
-                        </div>
-                        <h3>Front-end Development</h3>
-                        <p>
-                            I create responsive and user-friendly websites using modern
-                            technologies like HTML, CSS, JavaScript, and React.
-                        </p>
-                    </div>
-                    <!-- Service Card 2 -->
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-cogs"></i>
-                            <!-- Font Awesome icon -->
-                        </div>
-                        <h3>Back-end Development</h3>
-                        <p>
-                            I develop secure and scalable backend systems using PHP and MySQL.
-                        </p>
-                    </div>
-                    <!-- Service Card 3 -->
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-mobile-alt"></i>
-                            <!-- Font Awesome icon -->
-                        </div>
-                        <h3>WordPress Development</h3>
-                        <p>
-                            I create custom WordPress websites from blogs to e-commerce using
-                            Elementor, WooCommerce, and custom themes/plugins.
-                        </p>
-                    </div>
-                    <!-- Service Card 4 -->
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-paint-brush"></i>
-                            <!-- Font Awesome icon -->
-                        </div>
-                        <h3>UI/UX Design</h3>
-                        <p>
-                            I design intuitive and visually appealing interfaces that enhance
-                            user experience and engagement.
-                        </p>
+                    <a href="#projects" class="btn primary">read_more</a>
+                </div>
+                <div class="about-right">
+                    <div class="toolkit">
+                        <p class="tool">HTML</p>
+                        <p class="tool">CSS</p>
+                        <p class="tool">Bootstrap</p>
+                        <p class="tool">JavaScript</p>
+                        <p class="tool">PHP</p>
+                        <p class="tool">Laravel</p>
+                        <p class="tool">MySQL</p>
+                        <p class="tool">Git</p>
+                        <p class="tool">Vercel</p>
+                        <p class="tool">Figma</p>
+                        <p class="tool">WordPress</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Education  -->
-        <section id="education">
-            <h2>Education</h2>
-            <div class="edu-container">
-                <div class="edu-right-side">
-                    <p class="edu">BS, Computer Science</p>
-                    <p class="edu-insti">The University of Agriculture</p>
-                </div>
-                <div class="edu-left-side">
-                    <p class="edu-date">2021 - 2025</p>
-                </div>
-            </div>
-            <div class="edu-container">
-                <div class="edu-right-side">
-                    <p class="edu">FCS, Computer Science</p>
-                    <p class="edu-insti">Qurtuba Public School and College</p>
-                </div>
-                <div class="edu-left-side">
-                    <p class="edu-date">2019 - 2021</p>
-                </div>
-            </div>
-            <div class="edu-container">
-                <div class="edu-right-side">
-                    <p class="edu">Matric, Computer Science</p>
-                    <p class="edu-insti">Agricultural University Public School and College</p>
-                </div>
-                <div class="edu-left-side">
-                    <p class="edu-date">2017 - 2019</p>
-                </div>
-            </div>
-        </section>
+    <!-- Projects Section  -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">{Projects}</h2>
+            <div class="project-grid">
+                
+                <!-- First Project -->
+                <article class="project-card">
+                    <img src="/Images/GymBo-Fitness.png" alt="GymBo Fitness Website Screenshot" class="project-image">
+                    <div class="project-body">
+                        <h3>GymBo Fitness</h3>
+                        <p>Designed to attract fitness enthusiasts, includes CTAs for memberships and dynamic content,
+                            display to showcase classes and trainers. Implemented responsive UI, image optimization and
+                            a custom booking flow.</p>
+                        <p class="tech"> Tech: HTMl and CSS</p>
+                        <div class="project-links">
+                            <a href="">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
 
-        <!-- Projects -->
-        <section id="projects">
-            <!-- <h2>My Projects</h2> -->
-            <div class="projects-container">
-                <h2>My Projects</h2>
-                <!-- <div class="filters">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="web">Web Development</button>
-                    <button class="filter-btn" data-filter="design">Design</button>
-                    <button class="filter-btn" data-filter="other">Other</button>
-                </div> -->
-                <div class="project-grid">
-                    <!-- Project Card 1 -->
-                    <div class="project-card" data-category="web">
-                        <img src="./Images/ccr.corp.com.png" alt="CCR-Corp-Homepage-img" class="project-image" />
-                        <div class="project-info">
-                            <h3>CCR Corp</h3>
-                            <p>
-                                CCR Corp is a trusted legal publishing firm (since 1975)
-                                providing expert guidance in corporate governance, securities
-                                regulation, M&A, and ESG.
-                            </p>
-                            <div class="project-links">
-                                <a href="https://ccrcorp.com/" target="_blank">Live Demo</a>
-                            </div>
+                <!-- Second Project -->
+                <article class="project-card">
+                    <img src="/Images/SGM.png" alt="GymBo Fitness Website Screenshot" class="project-image">
+                    <div class="project-body">
+                        <h3>SGM</h3>
+                        <p>Designed to attract fitness enthusiasts, includes CTAs for memberships and dynamic content,
+                            display to showcase classes and trainers. Implemented responsive UI, image optimization and
+                            a custom booking flow.</p>
+                        <p class="tech"> Tech: HTMl and CSS</p>
+                        <div class="project-links">
+                            <a href="">Live Demo</a>
                         </div>
                     </div>
-                    <!-- Project Card 2 -->
-                    <div class="project-card" data-category="web">
-                        <img src="./Images/GymBo-Fitness.png" alt="GymBo-Fitness-img" class="project-image" />
-                        <div class="project-info">
-                            <h3>GymBo Fitness</h3>
-                            <p>
-                                Designed to attract fitness enthusiasts, it includes
-                                call-to-action sections for memberships and dynamic content
-                                display.
-                            </p>
-                            <div class="project-links">
-                                <a href="https://gym-bo-fitness.vercel.app/" target="_blank">Live Demo</a>
-                                <!-- <a href="https://github.com/AbubakarWD/GymBo-Fitness" target="_blank">View Code</a> -->
-                            </div>
+                </article>
+
+                <!-- Third Project -->
+                <article class="project-card">
+                    <img src="Images/ccr.corp.com.png" alt="GymBo Fitness Website Screenshot" class="project-image">
+                    <div class="project-body">
+                        <h3>CCC Corp</h3>
+                        <p>Designed to attract fitness enthusiasts, includes CTAs for memberships and dynamic content,
+                            display to showcase classes and trainers. Implemented responsive UI, image optimization and
+                            a custom booking flow.</p>
+                        <p class="tech"> Tech: HTMl and CSS</p>
+                        <div class="project-links">
+                            <a href="">Live Demo</a>
                         </div>
                     </div>
-                    <!-- Project Card 3 -->
-                    <div class="project-card" data-category="design">
-                        <img src="./Images/SGM.png" alt="SGM-img" class="project-image" />
-                        <div class="project-info">
-                            <h3>SGM</h3>
-                            <p>
-                                Developed a dynamic business website for Sufyan Growth Media,
-                                highlighting their digital marketing and branding services.
-                            </p>
-                            <div class="project-links">
-                                <a href="https://sufyangrowthmedia.netlify.app/" target="_blank">Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project Card 4 -->
-                    <div class="project-card" data-category="design">
-                        <img src="./Images/My Wheels.png" alt="my-wheels-img" class="project-image" />
-                        <div class="project-info">
-                            <h3>My Wheels</h3>
-                            <p>
-                                Highlights product presentation skills with image sliders,
-                                search functionality, and mobile-first responsive layouts.
-                            </p>
-                            <div class="project-links">
-                                <a href="https://my-wheels-iota.vercel.app/" target="_blank">Live Demo</a>
-                                <!-- <a href="" target="_blank">View Code</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project Card 5 -->
-                    <div class="project-card" data-category="design">
-                        <img src="./Images/top-bags-now.png" alt="top-bags-now-img" class="project-image" />
-                        <div class="project-info">
-                            <h3>Top Bags Now</h3>
-                            <p>
-                                Developed a responsive and user-friendly WordPress e-commerce website for
-                                Top bags Now, which is a luxury Bags brand.
-                            </p>
-                            <div class="project-links">
-                                <a href="https://topbagsnow.com/" target="_blank">Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add more project cards as needed -->
-                </div>
+                </article>
+
             </div>
-        </section>
-        <!-- Education  -->
-        <section id="certifications">
-            <h2>Certifications</h2>
-            <div class="certifications-container">
-                <div class="certifications-right-side">
-                    <p class="certification">Getting Started with Git and GitHub</p>
-                    <p class="certifications-insti">IBM</p>
-                </div>
-                <div class="certifications-left-side">
-                    <p class="certifications-date">June 2025</p>
-                </div>
-            </div>
-            <div class="certifications-container">
-                <div class="certifications-right-side">
-                    <p class="certification">Introduction to HTML, CSS, & JavaScript</p>
-                    <p class="certifications-insti">IBM</p>
-                </div>
-                <div class="certifications-left-side">
-                    <p class="certifications-date">June 2025</p>
-                </div>
-            </div>
-            <div class="certifications-container">
-                <div class="certifications-right-side">
-                    <p class="certification">JavaScript Basics</p>
-                    <p class="certifications-insti">UC Davis</p>
-                </div>
-                <div class="certifications-left-side">
-                    <p class="certifications-date">May 2025</p>
-                </div>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact Now</h2>
-            <div class="contact-items">
-                <form action="">
-                    <input type="text" name="user-name" placeholder="Name" />
-                    <input type="tel" name="user-phone" placeholder="Phone Number" />
-                    <input type="email" name="user-email" placeholder="Email Address" />
-                    <input type="text" name="Subject" placeholder="Subject" />
-                    <input type="text" name="Your Message" placeholder="Your Message" />
-                    <!-- <div><button>Submit</button></div> -->
-                    <button>Submit</button>
-                </form>
-            </div>
-        </section>
-        <footer>
-            <p>&copy; 2023 Muhammad Abubakar Khan. All rights reserved.</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/muhammadabubakarkhan2/" class="fa fa-linkedin" target="_blank"></a>
-                <a href="https://github.com/AbubakarWD" class="fa fa-github" target="_blank"></a>
-                <a href="https://www.instagram.com/abubakarwd_/" class="fa fa-instagram" target="_blank"></a>
-                <a href="https://www.tiktok.com/@abubakarwd_" class="fa fa-tiktok" target="_blank"></a>
-            </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-7+8e5e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"
-            integrity="sha512-1z5+8e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5e8f7b6c3d4f8e2b1a5c9d6f8e5"
-            crossorigin="anonymous"></script>
-    </main>
+            <button class="btn primary">Check_all_Projects</button>
+        </div>
+    </section>
+    <script src="./JS/script.js"></script>
 </body>
 
 </html>
