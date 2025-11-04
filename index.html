@@ -10,6 +10,11 @@
         href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
         rel="stylesheet">
 
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
     <!-- Styles -->
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
@@ -28,10 +33,10 @@
             <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
             <nav id="mainNav" class="main-nav">
                 <ul>
-                    <li><a href="#home">_home</a></li>
+                    <li><a href="/index.html">_home</a></li>
                     <li><a href="#about">_about</a></li>
+                    <li><a href="./Other-Pages/projects.html">_projects</a></li>
                     <li><a href="#services">_services</a></li>
-                    <li><a href="#portfolio">_portfolio</a></li>
                     <li><a href="#contact">_contact</a></li>
                 </ul>
             </nav>
@@ -114,13 +119,12 @@
 
                 <!-- Second Project -->
                 <article class="project-card">
-                    <img src="/Images/SGM.png" alt="GymBo Fitness Website Screenshot" class="project-image">
+                    <img src="/Images/SGM.png" alt="SGM Website Screenshot" class="project-image">
                     <div class="project-body">
                         <h3>SGM</h3>
-                        <p>Designed to attract fitness enthusiasts, includes CTAs for memberships and dynamic content,
-                            display to showcase classes and trainers. Implemented responsive UI, image optimization and
-                            a custom booking flow.</p>
-                        <p class="tech"> Tech: HTMl and CSS</p>
+                        <p>Developed a dynamic business website for Sufyan Growth Media, highlighting their digital
+                            marketing and branding services.</p>
+                        <p class="tech"> Tech: WordPress along HTMl and CSS</p>
                         <div class="project-links">
                             <a href="">Live Demo</a>
                         </div>
@@ -129,21 +133,19 @@
 
                 <!-- Third Project -->
                 <article class="project-card">
-                    <img src="Images/ccr.corp.com.png" alt="GymBo Fitness Website Screenshot" class="project-image">
+                    <img src="Images/ccr.corp.com.png" alt="CCR Corp Website Screenshot" class="project-image">
                     <div class="project-body">
                         <h3>CCC Corp</h3>
-                        <p>Designed to attract fitness enthusiasts, includes CTAs for memberships and dynamic content,
-                            display to showcase classes and trainers. Implemented responsive UI, image optimization and
-                            a custom booking flow.</p>
-                        <p class="tech"> Tech: HTMl and CSS</p>
+                        <p>CCR Corp is a trusted legal publishing firm (since 1975) providing expert guidance in
+                            corporate governance, securities regulation, M&A, and ESG.</p>
+                        <p class="tech"> Tech: HTMl, CSS and JavaScript</p>
                         <div class="project-links">
                             <a href="">Live Demo</a>
                         </div>
                     </div>
                 </article>
-
             </div>
-            <button class="btn primary project-btn">Check_all_Projects</button>
+            <button href="/Other-Pages/projects.html" class="btn primary project-btn">Check_all_Projects</button>
         </div>
     </section>
     <!-- Services Section -->
@@ -169,12 +171,29 @@
             </div>
         </div>
     </section>
+    <!-- Contact Section  -->
     <section id="contact" class="contact-section">
         <div class="container">
             <h2 class="section-title">&lt;Contact_me&gt;</h2>
             <p class="section-sub">Want to work together? contact now.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/muhammadabubakarkhan2/" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/AbubakarWD" class="fa fa-github" target="_blank"></a>
+                <a href="https://www.instagram.com/abubakarwd_/" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://www.tiktok.com/@abubakarwd_" class="fa fa-tiktok" target="_blank"></a>
+            </div>
+
         </div>
     </section>
+    <!-- Footer Section  -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="inner-footer">
+                <p>&copy; 2023 Muhammad Abubakar Khan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
     <script src="./JS/script.js"></script>
 </body>
 
