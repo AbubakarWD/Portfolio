@@ -30,4 +30,8 @@
     }
 }
 
-@media (max-width:576px) {}
+@media (max-width:576px) {
+    .inner-footer p{
+        font-size: 14px;
+    }
+}
