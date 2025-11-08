@@ -134,13 +134,26 @@ body {
 .btn.primary {
     background: var(--accent);
     color: #051107;
-    /* transition: background 0.3s ease; */
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: all 0.5s ease;
+}
+
+.btn.primary:hover {
+    /* background: transparent;
+    color: var(--muted); */
+    transform: scale(1.1);
 }
 
 .btn.outline {
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.06);
     color: var(--muted);
+}
+
+.btn.outline:hover {
+    background: var(--accent);
+    color: #051107;
+
 }
 
 /* About Section  */
@@ -333,8 +346,7 @@ body {
 }
 
 .social-icons a:hover {
-    color: #67fd67cc;
-    background-color: #7c7e80;
+    transform: scale(1.1);
 }
 
 .fa-linkedin {

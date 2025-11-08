@@ -1,15 +1,62 @@
-@media (max-width:992px) {}
+@media (max-width:992px) {
+    /* Tablet / small desktop adjustments */
+    .container {
+        padding: 0 16px;
+    }
+
+    .brand {
+        padding: 0 40px 0 0;
+    }
+
+    .main-nav ul {
+        padding: 0 40px 0 0;
+    }
+
+    .hero {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .big-title {
+        font-size: 40px;
+    }
+
+    .project-image {
+        height: 140px;
+    }
+}
 
 @media (max-width:768px) {
+    /* Mobile landscape / tablets */
+    .inner {
+        padding: 12px 0;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .brand {
+        padding: 0;
+        flex: 1 1 auto;
+    }
+
+    .menu-toggle {
+        display: block;
+        background: transparent;
+        border: none;
+        font-size: 24px;
+        z-index: 90;
+    }
+
     .main-nav {
         position: fixed;
-        top: 50px;
+        top: 58px; /* below header */
         left: 0;
         right: 0;
         background: rgba(15, 15, 15, 0.98);
         transform: translateY(-120%);
         transition: transform 0.25s ease;
-        padding: 15px 15px 15px 15px;
+        padding: 12px 16px;
+        z-index: 85;
     }
 
     .main-nav.open {
@@ -19,19 +66,83 @@
     .main-nav ul {
         flex-direction: column;
         gap: 8px;
+        padding: 0;
     }
 
-    .menu-toggle {
-        display: block;
+    /* Make hero content smaller on narrow tablets */
+    .big-title {
+        font-size: 32px;
+    }
+
+    .hero-sub {
+        font-size: 14px;
     }
 
     .about-grid {
         grid-template-columns: 1fr;
     }
+
+    .project-body p {
+        font-size: 13px;
+    }
+
+    .project-image {
+        height: 130px;
+    }
 }
 
 @media (max-width:576px) {
-    .inner-footer p{
+    /* Mobile portrait */
+    .site-header {
+        padding: 0 12px;
+    }
+
+    .inner {
+        align-items: center;
+    }
+
+    .brand .brand-text .brand-name {
+        font-size: 12px;
+    }
+
+    .big-title {
+        font-size: 26px;
+        line-height: 1.1;
+        padding: 0 6px;
+    }
+
+    .hero-sub {
+        font-size: 12px;
+        padding: 0 8px;
+    }
+
+    .hero {
+        padding: 30px 0;
+        height: auto;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-image {
+        height: 120px;
+    }
+
+    .project-body {
+        padding: 12px;
+    }
+
+    .toolkit {
+        gap: 8px;
+    }
+
+    .service {
+        padding: 12px;
+        margin: 6px 0;
+    }
+
+    .inner-footer p {
         font-size: 14px;
     }
 }
