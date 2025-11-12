@@ -219,24 +219,63 @@ body {
 .projects-section {
     padding: 48px 0;
     border: 1px solid rgba(255, 255, 255, 0.03);
+    overflow: hidden;
+}
+
+.project-slider {
+    position: relative;
+    padding: 0 40px;
 }
 
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: flex;
     gap: var(--gap);
+    transition: transform 0.6s ease-in-out;
+    margin: 20px 0;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--panel);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--muted);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.slider-btn:hover {
+    background: var(--card);
+    color: var(--accent);
+}
+
+.slider-btn.prev {
+    left: 0;
+}
+
+.slider-btn.next {
+    right: 0;
 }
 
 .project-card {
     background: var(--card);
     border-radius: 8px;
     overflow: hidden;
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); */
-    /* box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5); */
     box-shadow: 0 6px 18px rgba(59, 59, 59, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
+    flex: 0 0 calc(33.333% - 16px);
+    min-width: calc(33.333% - 16px);
 }
 .project-card:hover {
     transform: translateY(-8px);
