@@ -188,7 +188,7 @@ body {
 }
 
 .lead {
-    color: var(--yellow);
+    color: var(--accent);
     font-weight: 700;
     margin-bottom: 12px;
 }
