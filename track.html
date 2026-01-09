@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDF6XKGY1Q"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-SDF6XKGY1Q');
+    </script>
+
+</head>
+
+<body>
+    <script>
+        // Fire CV download event
+        gtag('event', 'cv_download', {
+            event_category: 'Resume',
+            event_label: 'Download CV',
+            value: 1
+        });
+
+        // Redirect after a tiny delay (to ensure GA event fires)
+        setTimeout(() => {
+            window.location.href = "https://drive.google.com/file/d/1GRUi2b4GxQkkWWb4dbcOxBC0dmO_93oY/view";
+        }, 100); // 100ms is enough
+    </script>
+
+    <p>Redirecting...</p>
+</body>
+
+</html>
