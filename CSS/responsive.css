@@ -94,6 +94,9 @@
     .project-slider {
         padding: 0 30px;
     }
+    .project-btn {
+    margin: 20px 25%;
+}
 }
 
 @media (max-width:576px) {
