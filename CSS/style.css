@@ -358,11 +358,24 @@ body {
 
 .service {
     background: #1a1919;
-    padding: 18px 22px;
+    padding: 48px 24px;
     border-radius: 6px;
     text-align: center;
     color: var(--muted);
-    margin: 6px;
+    /* margin: 6px; */
+    border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.service i {
+    font-size: 36px;
+    /* color: var(--accent); */
+    margin-bottom: 12px;
+    border: 1px solid var(--yellow);
+    padding: 16px;
+    border-radius: 50%;
+    border-radius: 8px;
+    color: var(--yellow);
+
 }
 
 .service h3 {
@@ -374,6 +387,8 @@ body {
     font-size: 14px;
     line-height: 1.6;
 }
+
+
 
 /* Contact Section  */
 .contact-section {
