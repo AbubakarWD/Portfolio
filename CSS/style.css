@@ -359,7 +359,7 @@ body {
 
 .service {
     background: #1a1919;
-    padding: 48px 24px;
+    padding: 48px 12px;
     border-radius: 6px;
     text-align: center;
     color: var(--muted);
@@ -382,6 +382,8 @@ body {
 .service h3 {
     color: var(--accent);
     margin-bottom: 12px;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .service p {
