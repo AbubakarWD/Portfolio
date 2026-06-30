@@ -102,12 +102,20 @@ body {
 
 /* Hero Section */
 .hero {
-    padding: 60px 0 30px;
-    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px 30px;
+    min-height: 85vh;
     /* border: 1px solid red; */
 }
 
 .hero-inner {
+    width: min(100%, 700px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     padding: 60px 0 30px;
 }
@@ -121,6 +129,13 @@ body {
 .hero-sub {
     color: var(--muted);
     margin-bottom: 20px;
+}
+
+.hero-cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
 }
 
 .btn {
@@ -392,7 +407,7 @@ body {
 }
 
     /* Education & Experience Section   */
-#education-experience {
+#qualifications {
     padding: 48px 0;
     border: 1px solid rgba(255, 255, 255, 0.03);
 }
