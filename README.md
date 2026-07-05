@@ -7,7 +7,6 @@ It's a one-stop destination to learn more about my professional journey and the 
 
 ## 🖥️ Live Preview
 **Check out my portfolio here**: [Portfolio Link](https://www.abubakardev.site/)
-![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live-success?style=for-the-badge)
 
 ---
 
