@@ -1,12 +1,13 @@
-# 🌟 Portfolio
+# Portfolio
 
-Welcome to my portfolio repository! This project showcases my skills, expertise, and projects as a **Full StackWeb Developer**. 
+Welcome to my portfolio repository! This project showcases my skills, expertise, and projects as a **Full Stack Web Developer**. 
 It's a one-stop destination to learn more about my professional journey and the work I've done.
 
 ---
 
 ## 🖥️ Live Preview
-**Check out my portfolio here**: [Portfolio Link](https://abubakarwd.github.io/Portfolio/)
+**Check out my portfolio here**: [Portfolio Link](https://www.abubakardev.site/)
+![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live-success?style=for-the-badge)
 
 ---
 
@@ -19,59 +20,48 @@ This portfolio is designed to highlight:
 
 ---
 
-## 💡 Features
+## Technologies Used
 
-- Fully **responsive** design for seamless viewing on any device.
-- **Interactive elements** for engaging user experience.
-- Easy navigation with a **clean and modern layout**.
-- Showcases my strongest **web development** projects.
-
----
-
-## 🛠️ Technologies Used
-
-### Front-End Development
+### Front-End
 - HTML5
 - CSS3
 - JavaScript
 
-### Back-End Development
-- PHP
+## Design
 
-### Tools
-- Git & GitHub
-- Photoshop
+- Responsive Web Design
+- Flexbox
+- CSS Grid
+- Media Queries
+
+## Deployment
+
+- GitHub
+- Vercel
+- Custom Domain
 
 ---
-## 📂 Project Structure
+## Project Structure
 
 Here’s how the project is structured:
-
+Portfolio/
+│
 ├── index.html 
-
 ├── HTML/               
-│   ├── about.html
-│   ├── contact.html
 │   ├── projects.html
-│   ├── services.html
-
 ├── CSS/                
 │   ├── style.css
-│   ├── typography.css
+│   ├── responsive.css
 │   ├── navbar.css
-│   ├── home-section.css
-│   ├── about.css
-│   ├── projects.css
-│   ├── services.css
-│   ├── contact.css
-
+├── JS/
+│   └── script.js
 ├── Images/             
-│   ├── logo-image
-│   ├── home-image
+│   
+└── README.md
 
 🤝 Connect With Me
-  -  Portfolio: [Portfolio Link](https://abubakarwd.github.io/Portfolio/)
-  -  LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/muhammadabubakarkhan/)
+  -  Portfolio: [Portfolio Link](https://www.abubakardev.site/)
+  -  LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/muhammadabubakarkhan2/)
   -  GitHub: [Your GitHub Profile](https://github.com/AbubakarWD)
   -  Email: abubakarwebdev22@gmail.com
 
