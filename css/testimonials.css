@@ -1,0 +1,99 @@
+.testi-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.testi-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 28px 26px;
+    position: relative;
+}
+
+.quote-mark {
+    position: absolute;
+    top: 22px;
+    right: 26px;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    color: var(--purple);
+    opacity: .35;
+    line-height: 1;
+}
+
+.testi-person {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.avatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.testi-person h4 {
+    font-size: 14.5px;
+}
+
+.testi-person span {
+    font-size: 12.5px;
+    color: var(--text-dim);
+}
+
+.testi-card p.quote {
+    font-size: 13.8px;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+}
+
+.stars {
+    display: flex;
+    gap: 3px;
+}
+
+.stars svg {
+    width: 14px;
+    height: 14px;
+    fill: #f5b942;
+    stroke: none;
+}
+
+.cta-banner {
+    margin-top: 60px;
+    background: linear-gradient(120deg, #2c1065, #7c3aed 130%);
+    border-radius: var(--radius-md);
+    padding: 32px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-banner h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.cta-banner p {
+    font-size: 13.5px;
+    color: var(--text-muted);
+}
+
+.cta-banner .btn-primary {
+    background: #fff;
+    color: var(--purple-dark);
+    box-shadow: none;
+}
+
+.cta-banner .btn-primary:hover {
+    background: #e1ddeb;
+}

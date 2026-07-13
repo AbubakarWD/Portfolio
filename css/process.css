@@ -1,0 +1,84 @@
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.process-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 26px 22px;
+    position: relative;
+}
+
+.process-num {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    font-family: var(--font-head);
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--text-dim);
+}
+
+.process-card h4 {
+    font-size: 15px;
+    margin: 14px 0 6px;
+}
+
+.process-card p {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.process-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: rgba(124, 58, 237, 0.12);
+    border: 1px solid rgba(124, 58, 237, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.process-icon svg {
+    width: 20px;
+    height: 20px;
+    stroke: var(--purple-light);
+}
+
+.cta-banner {
+    margin-top: 60px;
+    background: linear-gradient(120deg, #2c1065, #7c3aed 130%);
+    border-radius: var(--radius-md);
+    padding: 32px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-banner h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.cta-banner p {
+    font-size: 13.5px;
+    color: var(--text-muted);
+}
+
+.cta-banner .btn-primary {
+    background: #fff;
+    color: var(--purple-dark);
+    box-shadow: none;
+}
+
+.cta-banner .btn-primary:hover {
+    background: #e1ddeb;
+}
