@@ -5,37 +5,20 @@ body::before {
     left: 80px;
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, var(--purple-glow) 0%, transparent 90%);
+    background: radial-gradient(circle, var(--green-glow) 0%, transparent 90%);
     filter: blur(10px);
     pointer-events: none;
     z-index: 0;
     opacity: 0.75;
 }
 
-
-/* .about-hero-left {
-    position: relative;
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    aspect-ratio: 1/1.05;
-    background: linear-gradient(160deg, #14121c, #0a0a0d 60%);
-    border: 1px solid var(--border);
-} */
-
-/* .about-hero-left img {
-    width: 100%;
-    height: 100%;
-    display: block;
-} */
-
 .about-hero-content {
-    /* display: grid; */
-    /* grid-template-columns: 0.85fr 1.15fr; */
-        grid-template-columns: 0.5fr 1.5fr;
+    grid-template-columns: 0.5fr 1.5fr;
     align-items: center;
     gap: 32px;
     padding: 64px 32px;
 }
+
 .portrait-frame::before {
     content: "";
     position: absolute;
@@ -43,20 +26,18 @@ body::before {
     left: 80px;
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, var(--purple-glow) 0%, transparent 90%);
+    background: radial-gradient(circle, var(--green-glow) 0%, transparent 90%);
     filter: blur(10px);
     pointer-events: none;
     z-index: 0;
     opacity: 0.75;
 }
+
 .portrait-frame {
     position: relative;
     border-radius: var(--radius-lg);
     overflow: hidden;
     border: 1px solid var(--border);
-    /* background: linear-gradient(160deg, #14121c, #0a0a0d 60%); */
-    /* aspect-ratio: 1/1.05; */
-
 }
 
 .portrait-frame svg {
@@ -65,13 +46,13 @@ body::before {
 }
 
 .signature {
-    background: linear-gradient(160deg, #413c52, #15154b 60%);
+    background: linear-gradient(160deg, #0f2a18, #0a1f12 60%);
     position: absolute;
     bottom: 18px;
     left: 22px;
     font-family: 'Sora', cursive;
     font-style: italic;
-    color: var(--purple-light);
+    color: var(--green-light);
     font-size: 15px;
     opacity: .85;
     padding: 5px;
@@ -80,13 +61,6 @@ body::before {
 .about-hero-right h2 {
     font-size: 30px;
     margin-bottom: 16px;
-}
-
-.about-hero-right p.lede {
-    /* color: var(--text-muted); */
-    /* font-size: 15px; */
-    /* margin-bottom: 22px; */
-    /* max-width: 500px; */
 }
 
 .check-list {
@@ -106,7 +80,7 @@ body::before {
 .check-list svg {
     width: 18px;
     height: 18px;
-    stroke: var(--purple-light);
+    stroke: var(--green-light);
     flex-shrink: 0;
 }
 
@@ -135,7 +109,7 @@ body::before {
     top: 6px;
     bottom: 6px;
     width: 1px;
-    background: linear-gradient(to bottom, var(--purple-light), transparent);
+    background: linear-gradient(to bottom, var(--green-light), transparent);
 }
 
 .timeline-item {
@@ -155,14 +129,14 @@ body::before {
     width: 11px;
     height: 11px;
     border-radius: 50%;
-    background: var(--purple-light);
-    box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.2);
+    background: var(--green-light);
+    box-shadow: 0 0 0 4px rgba(103, 253, 103, 0.18);
 }
 
 .timeline-item .date {
     font-size: 12px;
     font-weight: 700;
-    color: var(--purple-light);
+    color: var(--green-light);
     letter-spacing: .04em;
 }
 
@@ -181,14 +155,12 @@ body::before {
     display: flex;
     justify-content: space-between;
     gap: 8px;
-    margin: 32px 0;
-    padding-top: 28px;
     flex-wrap: wrap;
-
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 38px 40px;
+    margin: 32px 0;
 }
 
 .drives-title {
@@ -206,13 +178,11 @@ body::before {
     gap: 8px;
     font-size: 13.5px;
     color: var(--text-muted);
-    /* border: 1px solid red; */
 }
 
 .drive-item svg {
     width: 48px;
-    /* height: 16px; */
-    color: var(--purple-light);
+    color: var(--green-light);
     border: 1px solid var(--border);
     border-radius: var(--radius-full);
     padding: 8px;

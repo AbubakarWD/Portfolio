@@ -10,6 +10,12 @@
     border-radius: var(--radius-md);
     padding: 28px 26px;
     position: relative;
+    transition: transform .2s, border-color .2s;
+}
+
+.testi-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--green-dark);
 }
 
 .quote-mark {
@@ -18,7 +24,7 @@
     right: 26px;
     font-family: Georgia, serif;
     font-size: 42px;
-    color: var(--purple);
+    color: var(--green);
     opacity: .35;
     line-height: 1;
 }
@@ -60,13 +66,13 @@
 .stars svg {
     width: 14px;
     height: 14px;
-    fill: #f5b942;
+    fill: #67fd67;
     stroke: none;
 }
 
 .cta-banner {
     margin-top: 60px;
-    background: linear-gradient(120deg, #2c1065, #7c3aed 130%);
+    background: linear-gradient(120deg, #0d2b18, #2ecc71 130%);
     border-radius: var(--radius-md);
     padding: 32px 40px;
     display: flex;
@@ -85,15 +91,15 @@
 
 .cta-banner p {
     font-size: 13.5px;
-    color: var(--text-muted);
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .cta-banner .btn-primary {
     background: #fff;
-    color: var(--purple-dark);
+    color: #0d2b18;
     box-shadow: none;
 }
 
 .cta-banner .btn-primary:hover {
-    background: #e1ddeb;
+    background: #d4f7d4;
 }

@@ -10,12 +10,11 @@
     border-radius: var(--radius-md);
     padding: 32px 24px;
     transition: transform .2s, border-color .2s;
-
 }
 
 .service-card:hover {
     transform: translateY(-4px);
-    border-color: var(--border-strong);
+    border-color: var(--green-dark);
 }
 
 .service-card h3 {
@@ -32,15 +31,15 @@
 .learn-more {
     font-size: 13px;
     font-weight: 600;
-    color: var(--purple-light);
+    color: var(--green-light);
     display: inline-flex;
     align-items: center;
     gap: 5px;
+    transition: color .15s;
 }
 
 .learn-more:hover {
-    color: var(--purple-dark);
-
+    color: var(--green-hover);
 }
 
 .learn-more svg {
@@ -49,8 +48,8 @@
 }
 
 .cta-banner {
-  margin-top: 60px;
-    background: linear-gradient(120deg, #2c1065, #7c3aed 130%);
+    margin-top: 60px;
+    background: linear-gradient(120deg, #0d2b18, #2ecc71 130%);
     border-radius: var(--radius-md);
     padding: 32px 40px;
     display: flex;
@@ -62,15 +61,6 @@
     overflow: hidden;
 }
 
-/* .cta-banner::after {
-    content: "";
-    position: absolute;
-    right: -60px;
-    top: -60px;
-    width: 220px;
-    height: 220px;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.18), transparent 70%);
-} */
 .cta-banner h3 {
     font-size: 20px;
     margin-bottom: 4px;
@@ -78,13 +68,15 @@
 
 .cta-banner p {
     font-size: 13.5px;
-    color: var(--text-muted);
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .cta-banner .btn-primary {
     background: #fff;
-    color: var(--purple-dark);
+    color: #0d2b18;
     box-shadow: none;
-}.cta-banner .btn-primary:hover {
-  background: #e1ddeb;
+}
+
+.cta-banner .btn-primary:hover {
+    background: #d4f7d4;
 }

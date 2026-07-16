@@ -1,4 +1,7 @@
-@media (max-width:1024px) {
+/* ─── Tablet & below (≤1024px) ─────────────────────────────────────────── */
+@media (max-width: 1024px) {
+
+    /* Nav: hide links, show hamburger */
     .nav-links {
         display: none;
     }
@@ -7,88 +10,211 @@
         display: flex;
     }
 
+    /* Collapse two-column grids to single column */
     .hero-content,
     .home-about-content,
-    .about-hero,
-    .about-hero-content, .contact-grid {
+    .about-hero-content,
+    .contact-grid {
         grid-template-columns: 1fr;
     }
 
-    /* .hero-left {
-        order: -1;
-        max-width: 420px;
-        margin: 0 auto;
-    } */
-
+    /* Portrait image: push below text, constrain width */
     .portrait-frame {
-        /* aspect-ratio: 10/5; */
-        order: 1;
+        order: 2;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    /* Hero image: also constrain on tablet */
+    .hero-left {
         max-width: 420px;
         margin: 0 auto;
     }
 
+    /* Hero right text order stays first */
+    .hero-right {
+        order: 1;
+    }
+
+    /* Problem & process grids: 2 columns */
     .problem-grid,
     .process-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    /* Service grid: 2 columns */
     .service-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .project-grid,
-    .testi-grid {
+    /* Project & testimonial grids: single column */
+    .project-grid {
         grid-template-columns: 1fr;
+    }
+
+    .testi-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Stat grid stays 2×2 on tablet */
+    .stat-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* CTA banner: wrap gracefully but keep row layout */
+    .cta-banner {
+        gap: 16px;
     }
 }
 
-@media (max-width:640px) {
-    .nav {
+/* ─── Mobile (≤640px) ───────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+
+    .navbar {
         padding: 14px 20px;
     }
 
     .wrap {
-        padding: 0 20px;
+        padding: 0 16px;
     }
 
+    /* Typography scale-down */
     .hero h1 {
-        font-size: 32px;
+        font-size: 30px;
+        line-height: 1.2;
     }
 
     .section-head h2 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
+    .about-hero-right h2 {
+        font-size: 24px;
+    }
+
+    /* All multi-column grids collapse to 1 column */
     .problem-grid,
     .service-grid,
     .process-grid,
-    .stat-grid {
+    .stat-grid,
+    .project-grid,
+    .testi-grid {
         grid-template-columns: 1fr;
     }
 
-    .trust-logos {
-        gap: 16px;
-    }
-
-    .tech-grid {
-        gap: 16px;
-    }
-
-    .tech-chip {
-        width: 80px;
-        padding: 16px 6px;
-    }
-
+    /* Form row: stack fields */
     .form-row {
         grid-template-columns: 1fr;
     }
 
+    /* CTA banner: stack vertically, centre content */
     .cta-banner {
         flex-direction: column;
         text-align: center;
+        padding: 28px 24px;
+        align-items: center;
     }
 
+    .cta-banner .btn-primary {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Drives: stack items */
     .drives {
         flex-direction: column;
+        gap: 16px;
+    }
+
+    /* Trust logos: tighten gap */
+    .trust-logos {
+        gap: 16px;
+        font-size: 13px;
+    }
+
+    /* Tech grid */
+    .tech-grid {
+        gap: 12px;
+    }
+
+    .tech-chip {
+        width: 76px;
+        padding: 16px 8px;
+        gap: 10px;
+    }
+
+    /* Hero CTA buttons: stack on very small screens */
+    .hero-cta {
+        flex-direction: column;
+    }
+
+    .hero-cta .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Portrait frame full width on mobile */
+    .portrait-frame {
+        max-width: 100%;
+    }
+
+    /* Section padding tighter on mobile */
+    section {
+        padding: 56px 0;
+    }
+
+    .section-tight {
+        padding: 44px 0;
+    }
+
+    /* About hero padding */
+    .about-hero-content {
+        padding: 40px 16px;
+    }
+
+    /* Experience & drives panels */
+    .experince,
+    .drives {
+        padding: 28px 24px;
+    }
+
+    /* Filter pills: allow wrap, smaller text */
+    .filter-row {
+        gap: 8px;
+    }
+
+    .filter-pill {
+        padding: 7px 14px;
+        font-size: 12px;
+    }
+
+    /* Project card body */
+    .project-body {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    /* Contact info rows */
+    .info-row {
+        align-items: flex-start;
+    }
+}
+
+/* ─── Very small screens (≤400px) ──────────────────────────────────────── */
+@media (max-width: 400px) {
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .logo {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 11px 20px;
+        font-size: 13px;
     }
 }

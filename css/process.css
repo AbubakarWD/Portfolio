@@ -10,6 +10,12 @@
     border-radius: var(--radius-md);
     padding: 26px 22px;
     position: relative;
+    transition: transform .2s, border-color .2s;
+}
+
+.process-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--green-dark);
 }
 
 .process-num {
@@ -36,8 +42,8 @@
     width: 44px;
     height: 44px;
     border-radius: 12px;
-    background: rgba(124, 58, 237, 0.12);
-    border: 1px solid rgba(124, 58, 237, 0.25);
+    background: rgba(103, 253, 103, 0.10);
+    border: 1px solid rgba(103, 253, 103, 0.22);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,12 +52,12 @@
 .process-icon svg {
     width: 20px;
     height: 20px;
-    stroke: var(--purple-light);
+    stroke: var(--green-light);
 }
 
 .cta-banner {
     margin-top: 60px;
-    background: linear-gradient(120deg, #2c1065, #7c3aed 130%);
+    background: linear-gradient(120deg, #0d2b18, #2ecc71 130%);
     border-radius: var(--radius-md);
     padding: 32px 40px;
     display: flex;
@@ -70,15 +76,15 @@
 
 .cta-banner p {
     font-size: 13.5px;
-    color: var(--text-muted);
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .cta-banner .btn-primary {
     background: #fff;
-    color: var(--purple-dark);
+    color: #0d2b18;
     box-shadow: none;
 }
 
 .cta-banner .btn-primary:hover {
-    background: #e1ddeb;
+    background: #d4f7d4;
 }
