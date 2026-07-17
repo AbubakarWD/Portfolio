@@ -168,7 +168,8 @@ section > div{
     align-items: center;
     justify-content: center;
     gap: 8px;
-    padding: 13px 26px;
+    /* padding: 13px 26px; */
+    padding: 12px 24px;
     border-radius: var(--radius-sm);
     font-size: 14px;
     font-weight: 600;
@@ -232,10 +233,11 @@ section > div{
     border-radius: var(--radius-sm);
     background: linear-gradient(135deg, var(--green), var(--green-dark));
     font-family: var(--font-head);
-    font-weight: 800;
+    /* font-weight: 800; */
     font-size: 16px;
     color: #0a0a0e;
     flex-shrink: 0;
+    padding: 12px 24px;
 }
 
 .nav-links {
