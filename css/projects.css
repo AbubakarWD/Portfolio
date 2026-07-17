@@ -39,6 +39,9 @@
     border-radius: var(--radius-md);
     overflow: hidden;
     transition: transform .2s, border-color .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-card:hover {

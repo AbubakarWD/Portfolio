@@ -34,10 +34,10 @@ document.addEventListener('DOMContentLoaded', function () {
       pill.addEventListener('click', function () {
         pills.forEach(function (p) { p.classList.remove('active'); });
         pill.classList.add('active');
-        var filter = pill.getAttribute('data-filter');
+        var filter = (pill.getAttribute('data-filter') || '').toLowerCase().trim();
         cards.forEach(function (card) {
-          var cat = card.getAttribute('data-category');
-          if (filter === 'all' || filter === cat) {
+          var cat = (card.getAttribute('data-category') || '').toLowerCase().trim();
+          if (filter === 'all' || cat.indexOf(filter) !== -1) {
             card.style.display = '';
           } else {
             card.style.display = 'none';

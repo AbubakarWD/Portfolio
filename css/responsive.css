@@ -2,7 +2,7 @@
 @media (max-width: 1024px) {
 
     /* Nav: hide links, show hamburger */
-    .nav-links {
+    .nav-links, .nav-right .btn {
         display: none;
     }
 
@@ -198,6 +198,15 @@
     /* Contact info rows */
     .info-row {
         align-items: flex-start;
+    }
+
+    /* about page */
+    /* stats row */
+    .stats-row {
+        justify-content: center;
+        gap: 24px;
+        flex-direction: column;
+
     }
 }
 

@@ -90,6 +90,7 @@ body::before {
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 38px 40px;
+    margin: 0 0 32px 0;
 }
 
 .experince h3 {
@@ -148,6 +149,33 @@ body::before {
 .timeline-item p {
     font-size: 13.5px;
     color: var(--text-muted);
+}
+
+/* stats row */
+.stats-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    flex-wrap: wrap;
+    background: var(--card);
+    border-top: 1px solid var(--border);
+    padding: 32px 40px 0 ;
+    margin: 32px 0 0;
+}
+
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    color: var(--text-muted);
+}
+
+.stat-box b {
+    color: var(--green-light);
+
 }
 
 /* aim section  */

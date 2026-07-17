@@ -87,6 +87,48 @@
     background: rgba(103, 253, 103, 0.10);
 }
 
+/* social icons */
+.social-icons {
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+}
+
+.social-icons a {
+    /* color: #fd1d1d; */
+    /* margin: 10px; */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.fa-linkedin {
+    background: #0077b5;
+    color: white;
+}
+
+.fa-github {
+    background: #181717;
+    color: white;
+}
+
+.fa-instagram {
+    background: linear-gradient(45deg, #fd1d1d, #e1306c, #f77737);
+    color: white;
+}
+
+.fa-tiktok {
+    background: #181717;
+    color: white;
+}
+
+/* form  */
 .contact-form {
     background: var(--card);
     border: 1px solid var(--border);
